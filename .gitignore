@@ -4,3 +4,4 @@ build
 example/src/generated
 example/node_modules/*
 test/generated.ts
+.DS_Store

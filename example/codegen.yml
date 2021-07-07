@@ -8,12 +8,9 @@ generates:
       - "typescript-operations"
       - "typescript-react-apollo"
     config:
-          reactApolloVersion: 3
-          withHooks: false
-          withHOC: false
-          withComponent: false
-          exportFragmentSpreadSubTypes: true
-          documentMode: graphQLTag
+      withHooks: false
+      exportFragmentSpreadSubTypes: true
+      documentMode: graphQLTag
   src/generated/page.tsx:
     config:
       documentMode: external
@@ -25,10 +22,10 @@ generates:
       # excludePatternsOptions: 'i'
       # customDataIdFromObjectName: 'test'
       # customDataIdFromObjectImport: 'abc'
-      apolloClientInstanceImport: '../withApollo'
+      apolloClientInstanceImport: "../withApollo"
       # apolloStateKey: '__APOLLO_STATE__'
     preset: import-types
     presetConfig:
       typesPath: ./graphql
     plugins:
-      - "../build/src/index.js" # replace by - graphql-codegen-apollo-next-ssr
+      - "graphql-codegen-apollo-next-ssr" # replace by - graphql-codegen-apollo-next-ssr
