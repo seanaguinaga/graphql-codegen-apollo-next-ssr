@@ -1,20 +1,38 @@
+import { DocumentNode, gql } from "@apollo/client";
+import { GetServerSideProps, GetStaticPaths } from "next";
+import React from "react";
+import ClientQuery from "../components/ClientQuery";
 import {
-  ssrGetCountriesByCode,
   PageGetCountriesByCodeComp,
   ssrGetContinents,
+  ssrGetCountriesByCode,
 } from "../generated/page";
-
 import { withApollo } from "../withApollo";
-import { GetServerSideProps, GetStaticPaths } from "next";
 
-const HomePage: PageGetCountriesByCodeComp = (props) => {
+const HomePage: PageGetCountriesByCodeComp & {
+  queries: { entry: DocumentNode };
+} = (props) => {
   return (
-    <div>
-      {props.data?.countries?.map((country, k) => (
-        <div key={k}>{country.name}</div>
-      ))}
-    </div>
+    <>
+      <ClientQuery />
+      <div>
+        {props.data?.countries?.map((country, k) => (
+          <div key={k}>{country.name}</div>
+        ))}
+      </div>
+    </>
   );
+};
+
+HomePage.queries = {
+  entry: gql`
+    query getCountriesByCode($code: String!) {
+      countries(filter: { continent: { eq: $code } }) {
+        name
+        code
+      }
+    }
+  `,
 };
 
 export const getStaticProps: GetServerSideProps = async ({ params }) => {
