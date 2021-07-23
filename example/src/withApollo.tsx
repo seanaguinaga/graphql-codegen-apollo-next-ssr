@@ -24,6 +24,7 @@ export const getApolloClient = (
     fetch,
   });
   const cache = new InMemoryCache().restore(initialState || {});
+
   return new ApolloClient({
     link: httpLink,
     cache,

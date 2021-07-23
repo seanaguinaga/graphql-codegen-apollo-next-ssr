@@ -43,7 +43,7 @@ const ClientQuery = () => {
           </>
         )}
         {data?.continents.map((continent, index) => (
-          <Link href={`/${continent.code}`} passHref key={index} shallow>
+          <Link href={`/${continent.code}`} passHref key={index}>
             <ion-item
               color={router.query.continent === continent.code ? "primary" : ""}
             >
