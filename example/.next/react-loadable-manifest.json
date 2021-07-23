@@ -1,4 +1,130 @@
 {
+  "../../node_modules/@ionic/core/dist/esm-es5/index-6d0dd567.js -> ./ios.transition-e4fa8357.js": {
+    "id": "./node_modules/@ionic/core/dist/esm-es5/ios.transition-e4fa8357.js",
+    "files": [
+      "static/chunks/node_modules_ionic_core_dist_esm-es5_ios_transition-e4fa8357_js.js"
+    ]
+  },
+  "../../node_modules/@ionic/core/dist/esm-es5/index-6d0dd567.js -> ./md.transition-ca0902b9.js": {
+    "id": "./node_modules/@ionic/core/dist/esm-es5/md.transition-ca0902b9.js",
+    "files": [
+      "static/chunks/node_modules_ionic_core_dist_esm-es5_md_transition-ca0902b9_js.js"
+    ]
+  },
+  "../../node_modules/@ionic/core/dist/esm-es5/ion-app_8.entry.js -> ./focus-visible-ed0c99b3.js": {
+    "id": "./node_modules/@ionic/core/dist/esm-es5/focus-visible-ed0c99b3.js",
+    "files": [
+      "static/chunks/node_modules_ionic_core_dist_esm-es5_focus-visible-ed0c99b3_js.js"
+    ]
+  },
+  "../../node_modules/@ionic/core/dist/esm-es5/ion-app_8.entry.js -> ./hardware-back-button-4a6b37fb.js": {
+    "id": "./node_modules/@ionic/core/dist/esm-es5/hardware-back-button-4a6b37fb.js",
+    "files": [
+      "static/chunks/node_modules_ionic_core_dist_esm-es5_hardware-back-button-4a6b37fb_js.js"
+    ]
+  },
+  "../../node_modules/@ionic/core/dist/esm-es5/ion-app_8.entry.js -> ./input-shims-50610d3e.js": {
+    "id": "./node_modules/@ionic/core/dist/esm-es5/input-shims-50610d3e.js",
+    "files": [
+      "static/chunks/node_modules_ionic_core_dist_esm-es5_input-shims-50610d3e_js.js"
+    ]
+  },
+  "../../node_modules/@ionic/core/dist/esm-es5/ion-app_8.entry.js -> ./keyboard-5742b5da.js": {
+    "id": "./node_modules/@ionic/core/dist/esm-es5/keyboard-5742b5da.js",
+    "files": [
+      "static/chunks/node_modules_ionic_core_dist_esm-es5_keyboard-5742b5da_js.js"
+    ]
+  },
+  "../../node_modules/@ionic/core/dist/esm-es5/ion-app_8.entry.js -> ./status-tap-107efca6.js": {
+    "id": "./node_modules/@ionic/core/dist/esm-es5/status-tap-107efca6.js",
+    "files": [
+      "static/chunks/node_modules_ionic_core_dist_esm-es5_status-tap-107efca6_js.js"
+    ]
+  },
+  "../../node_modules/@ionic/core/dist/esm-es5/ion-app_8.entry.js -> ./swipe-back-45aeeff7.js": {
+    "id": "./node_modules/@ionic/core/dist/esm-es5/swipe-back-45aeeff7.js",
+    "files": [
+      "static/chunks/node_modules_ionic_core_dist_esm-es5_swipe-back-45aeeff7_js.js"
+    ]
+  },
+  "../../node_modules/@ionic/core/dist/esm-es5/ion-app_8.entry.js -> ./tap-click-ef075f73.js": {
+    "id": "./node_modules/@ionic/core/dist/esm-es5/tap-click-ef075f73.js",
+    "files": [
+      "static/chunks/node_modules_ionic_core_dist_esm-es5_tap-click-ef075f73_js.js"
+    ]
+  },
+  "../../node_modules/@ionic/core/dist/esm-es5/ion-datetime_3.entry.js -> ./index-f49d994d.js": {
+    "id": "./node_modules/@ionic/core/dist/esm-es5/index-f49d994d.js",
+    "files": [
+      "static/chunks/node_modules_ionic_core_dist_esm-es5_index-f49d994d_js-_391c0.js"
+    ]
+  },
+  "../../node_modules/@ionic/core/dist/esm-es5/ion-item-option_3.entry.js -> ./index-f49d994d.js": {
+    "id": "./node_modules/@ionic/core/dist/esm-es5/index-f49d994d.js",
+    "files": [
+      "static/chunks/node_modules_ionic_core_dist_esm-es5_index-f49d994d_js-_391c0.js"
+    ]
+  },
+  "../../node_modules/@ionic/core/dist/esm-es5/ion-menu_3.entry.js -> ./index-f49d994d.js": {
+    "id": "./node_modules/@ionic/core/dist/esm-es5/index-f49d994d.js",
+    "files": [
+      "static/chunks/node_modules_ionic_core_dist_esm-es5_index-f49d994d_js-_391c1.js"
+    ]
+  },
+  "../../node_modules/@ionic/core/dist/esm-es5/ion-nav_2.entry.js -> ./swipe-back-45aeeff7.js": {
+    "id": "./node_modules/@ionic/core/dist/esm-es5/swipe-back-45aeeff7.js",
+    "files": [
+      "static/chunks/node_modules_ionic_core_dist_esm-es5_swipe-back-45aeeff7_js.js"
+    ]
+  },
+  "../../node_modules/@ionic/core/dist/esm-es5/ion-range.entry.js -> ./index-f49d994d.js": {
+    "id": "./node_modules/@ionic/core/dist/esm-es5/index-f49d994d.js",
+    "files": [
+      "static/chunks/node_modules_ionic_core_dist_esm-es5_index-f49d994d_js-_391c0.js"
+    ]
+  },
+  "../../node_modules/@ionic/core/dist/esm-es5/ion-refresher_2.entry.js -> ./index-f49d994d.js": {
+    "id": "./node_modules/@ionic/core/dist/esm-es5/index-f49d994d.js",
+    "files": [
+      "static/chunks/node_modules_ionic_core_dist_esm-es5_index-f49d994d_js-_391c0.js"
+    ]
+  },
+  "../../node_modules/@ionic/core/dist/esm-es5/ion-reorder_2.entry.js -> ./index-f49d994d.js": {
+    "id": "./node_modules/@ionic/core/dist/esm-es5/index-f49d994d.js",
+    "files": [
+      "static/chunks/node_modules_ionic_core_dist_esm-es5_index-f49d994d_js-_391c0.js"
+    ]
+  },
+  "../../node_modules/@ionic/core/dist/esm-es5/ion-segment_2.entry.js -> ./index-f49d994d.js": {
+    "id": "./node_modules/@ionic/core/dist/esm-es5/index-f49d994d.js",
+    "files": [
+      "static/chunks/node_modules_ionic_core_dist_esm-es5_index-f49d994d_js-_391c0.js"
+    ]
+  },
+  "../../node_modules/@ionic/core/dist/esm-es5/ion-slide_2.entry.js -> ./swiper.bundle-6c5e7804.js": {
+    "id": "./node_modules/@ionic/core/dist/esm-es5/swiper.bundle-6c5e7804.js",
+    "files": [
+      "static/chunks/node_modules_ionic_core_dist_esm-es5_swiper_bundle-6c5e7804_js.js"
+    ]
+  },
+  "../../node_modules/@ionic/core/dist/esm-es5/ion-toggle.entry.js -> ./index-f49d994d.js": {
+    "id": "./node_modules/@ionic/core/dist/esm-es5/index-f49d994d.js",
+    "files": [
+      "static/chunks/node_modules_ionic_core_dist_esm-es5_index-f49d994d_js-_391c0.js"
+    ]
+  },
+  "../../node_modules/@ionic/core/dist/esm/polyfills/index.js -> ./core-js.js": {
+    "id": "./node_modules/@ionic/core/dist/esm/polyfills/core-js.js",
+    "files": [
+      "static/chunks/polyfills-core-js.js"
+    ]
+  },
+  "../../node_modules/@ionic/core/dist/esm/polyfills/index.js -> ./dom.js": {
+    "id": "./node_modules/@ionic/core/dist/esm/polyfills/dom.js",
+    "files": [
+      "static/chunks/polyfills-dom.js"
+    ]
+  },
   "../../node_modules/next/dist/client/next-dev.js -> ./dev/noop": {
     "id": "./node_modules/next/dist/client/dev/noop.js",
     "files": [

@@ -9,16 +9,30 @@ const HomePage: PageGetCountriesComp & { queries: { entry: DocumentNode } } = (
   props
 ) => {
   return (
-    <>
-      <Link href="/continents" passHref>
-        <a>Continents</a>
-      </Link>
-      <div>
-        {props.data?.countries?.map((country, k) => (
-          <div key={k}>{country.name}</div>
-        ))}
-      </div>
-    </>
+    <div className="ion-page">
+      <ion-header>
+        <ion-toolbar>
+          <ion-title>Countries</ion-title>
+        </ion-toolbar>
+      </ion-header>
+
+      <ion-content>
+        <ion-list>
+          {props.data?.countries?.map((country, k) => (
+            <ion-item key={k}>
+              <ion-label>{country.name}</ion-label>
+            </ion-item>
+          ))}
+        </ion-list>
+      </ion-content>
+      <ion-footer>
+        <ion-toolbar>
+          <Link href="/continents" passHref>
+            <ion-button fill="clear">Continents</ion-button>
+          </Link>
+        </ion-toolbar>
+      </ion-footer>
+    </div>
   );
 };
 

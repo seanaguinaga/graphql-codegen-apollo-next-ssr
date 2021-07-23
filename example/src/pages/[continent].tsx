@@ -13,14 +13,17 @@ const HomePage: PageGetCountriesByCodeComp & {
   queries: { entry: DocumentNode };
 } = (props) => {
   return (
-    <>
-      <ClientQuery />
-      <div>
-        {props.data?.countries?.map((country, k) => (
-          <div key={k}>{country.name}</div>
-        ))}
-      </div>
-    </>
+    <div className="ion-page">
+      <ion-header></ion-header>
+      <ion-content>
+        <ClientQuery />
+        <div>
+          {props.data?.countries?.map((country, k) => (
+            <div key={k}>{country.name}</div>
+          ))}
+        </div>
+      </ion-content>
+    </div>
   );
 };
 

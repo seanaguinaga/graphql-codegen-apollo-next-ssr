@@ -2,6 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/[continent]": "pages/[continent].js",
-  "/continents": "pages/continents.js"
+  "/": "pages/index.js",
+  "/continents": "pages/continents.js",
+  "/[continent]": "pages/[continent].js"
 }
