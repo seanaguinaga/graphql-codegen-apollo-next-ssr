@@ -1,11 +1,11 @@
-import { NextPage } from "next";
 import {
   ApolloClient,
-  NormalizedCacheObject,
-  InMemoryCache,
   ApolloProvider,
   createHttpLink,
+  InMemoryCache,
+  NormalizedCacheObject,
 } from "@apollo/client";
+import { NextPage } from "next";
 
 export const withApollo = (Comp: NextPage) => (props: any) => {
   return (

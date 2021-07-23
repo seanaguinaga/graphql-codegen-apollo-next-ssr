@@ -18,18 +18,37 @@ import React, { useEffect } from "react";
 import "../styles/theme.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
+  let loadingElement: HTMLIonLoadingElement | null = null;
+
   useEffect(() => {
     ionDefineCustomElements(window);
+    loadingElement = document.createElement("ion-loading");
   });
+
+  async function presentLoading() {
+    if (loadingElement) {
+      document.body.appendChild(loadingElement);
+      await loadingElement.present();
+    }
+  }
+
+  async function dismissLoading() {
+    if (loadingElement) {
+      await loadingElement.dismiss();
+    }
+  }
 
   const [loading, setLoading] = React.useState(false);
 
   useEffect(() => {
     const start = () => {
+      presentLoading();
       console.log("start");
+
       setLoading(true);
     };
     const end = () => {
+      dismissLoading();
       console.log("finished");
       setLoading(false);
     };
@@ -45,14 +64,15 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <ion-app>
-      {loading ? (
+      {/* {loading ? (
         <ion-progress-bar
           type="indeterminate"
           style={{ position: "absolute", top: 0 }}
         />
       ) : (
         <Component {...pageProps} />
-      )}
+      )} */}
+      <Component {...pageProps} />
     </ion-app>
   );
 }
